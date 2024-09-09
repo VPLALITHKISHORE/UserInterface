@@ -1,0 +1,87 @@
+/* src/App.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styles for registration form container */
+.registration-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Center the form */
+.registration-form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+/* Form group styles */
+.form-group {
+    margin-bottom: 15px;
+    width: 100%; /* Ensure full width */
+}
+
+/* Label styles */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Input and textarea styles */
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="file"],
+.form-group textarea,
+.form-group select {
+    width: 100%; /* Ensure full width */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Select element styles */
+.form-group select {
+    font-size: 16px; /* Increase font size for better visibility */
+}
+
+/* Button styles */
+.form-group button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Ensure full width */
+}
+
+/* Disable button styles */
+.form-group button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Error message styles */
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+/* Error border */
+.error {
+    border-color: red;
+}
